@@ -15,6 +15,10 @@ function App() {
             <Route exact path='/portfolio' component={ () => ( <div>Portfolio</div> ) } />
             <Route exact path='/about' component={ () => ( <div>About </div> ) } />
             <Route exact path='/contact' component={ () => ( <div>Contact</div> ) } />
+
+            {/* portfolio Routes */}
+            <Route exact path='/ravenous' component={ () => ( <div>Portfolio - Ravenous</div> ) } />
+            <Route exact path='/jamming' component={ () => ( <div>Portfolio - Jamming</div> ) } />
         </Switch>
       </ThemeProvider>
       </BrowserRouter>
